@@ -7,25 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35FAD91119D8E190002E72F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FAD91019D8E190002E72F6 /* main.m */; };
-		35FAD91419D8E190002E72F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FAD91319D8E190002E72F6 /* AppDelegate.m */; };
-		35FAD91C19D8E190002E72F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FAD91B19D8E190002E72F6 /* Images.xcassets */; };
-		35FAD93619D8E23A002E72F6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FAD93519D8E23A002E72F6 /* TableViewController.m */; };
+		3500362319D9017500E69508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3500362219D9017500E69508 /* AppDelegate.swift */; };
+		3500362A19D9017500E69508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3500362919D9017500E69508 /* Images.xcassets */; };
+		3500365219D903D800E69508 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3500365119D903D800E69508 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35FAD90B19D8E190002E72F6 /* StaticCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = StaticCells.app; path = "/Users/bmancini/Documents/iOSExamples-StaticCells/ObjectiveC/build/Debug-iphoneos/StaticCells.app"; sourceTree = "<absolute>"; };
-		35FAD90F19D8E190002E72F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35FAD91019D8E190002E72F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35FAD91219D8E190002E72F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		35FAD91319D8E190002E72F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35FAD91B19D8E190002E72F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		35FAD93419D8E23A002E72F6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		35FAD93519D8E23A002E72F6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3500362119D9017500E69508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3500362219D9017500E69508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3500362919D9017500E69508 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3500365019D903AE00E69508 /* StaticCellsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = StaticCellsSwift.app; path = "/Users/bmancini/Documents/iOSExamples-StaticCells/Swift/build/Debug-iphoneos/StaticCellsSwift.app"; sourceTree = "<absolute>"; };
+		3500365119D903D800E69508 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35FAD90819D8E190002E72F6 /* Frameworks */ = {
+		3500361A19D9017500E69508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +31,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35FAD90219D8E190002E72F6 = {
+		3500361419D9017500E69508 = {
 			isa = PBXGroup;
 			children = (
-				35FAD90D19D8E190002E72F6 /* StaticCells */,
+				3500361F19D9017500E69508 /* StaticCellsSwift */,
 			);
 			sourceTree = "<group>";
 		};
-		35FAD90D19D8E190002E72F6 /* StaticCells */ = {
+		3500361F19D9017500E69508 /* StaticCellsSwift */ = {
 			isa = PBXGroup;
 			children = (
-				35FAD91219D8E190002E72F6 /* AppDelegate.h */,
-				35FAD91319D8E190002E72F6 /* AppDelegate.m */,
-				35FAD93419D8E23A002E72F6 /* TableViewController.h */,
-				35FAD93519D8E23A002E72F6 /* TableViewController.m */,
-				35FAD91B19D8E190002E72F6 /* Images.xcassets */,
-				35FAD90E19D8E190002E72F6 /* Supporting Files */,
+				3500362219D9017500E69508 /* AppDelegate.swift */,
+				3500365119D903D800E69508 /* TableViewController.swift */,
+				3500362919D9017500E69508 /* Images.xcassets */,
+				3500362019D9017500E69508 /* Supporting Files */,
 			);
-			path = StaticCells;
+			path = StaticCellsSwift;
 			sourceTree = "<group>";
 		};
-		35FAD90E19D8E190002E72F6 /* Supporting Files */ = {
+		3500362019D9017500E69508 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				35FAD90F19D8E190002E72F6 /* Info.plist */,
-				35FAD91019D8E190002E72F6 /* main.m */,
+				3500362119D9017500E69508 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -67,38 +60,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35FAD90A19D8E190002E72F6 /* StaticCells */ = {
+		3500361C19D9017500E69508 /* StaticCellsSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35FAD92E19D8E190002E72F6 /* Build configuration list for PBXNativeTarget "StaticCells" */;
+			buildConfigurationList = 3500363C19D9017500E69508 /* Build configuration list for PBXNativeTarget "StaticCellsSwift" */;
 			buildPhases = (
-				35FAD90719D8E190002E72F6 /* Sources */,
-				35FAD90819D8E190002E72F6 /* Frameworks */,
-				35FAD90919D8E190002E72F6 /* Resources */,
+				3500361919D9017500E69508 /* Sources */,
+				3500361A19D9017500E69508 /* Frameworks */,
+				3500361B19D9017500E69508 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StaticCells;
-			productName = StaticCells;
-			productReference = 35FAD90B19D8E190002E72F6 /* StaticCells.app */;
+			name = StaticCellsSwift;
+			productName = StaticCellsSwift;
+			productReference = 3500365019D903AE00E69508 /* StaticCellsSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		35FAD90319D8E190002E72F6 /* Project object */ = {
+		3500361519D9017500E69508 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = iOSExamples;
 				TargetAttributes = {
-					35FAD90A19D8E190002E72F6 = {
+					3500361C19D9017500E69508 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 35FAD90619D8E190002E72F6 /* Build configuration list for PBXProject "StaticCells" */;
+			buildConfigurationList = 3500361819D9017500E69508 /* Build configuration list for PBXProject "StaticCellsSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -106,42 +99,41 @@
 				en,
 				Base,
 			);
-			mainGroup = 35FAD90219D8E190002E72F6;
-			productRefGroup = 35FAD90219D8E190002E72F6;
+			mainGroup = 3500361419D9017500E69508;
+			productRefGroup = 3500361419D9017500E69508;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35FAD90A19D8E190002E72F6 /* StaticCells */,
+				3500361C19D9017500E69508 /* StaticCellsSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35FAD90919D8E190002E72F6 /* Resources */ = {
+		3500361B19D9017500E69508 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35FAD91C19D8E190002E72F6 /* Images.xcassets in Resources */,
+				3500362A19D9017500E69508 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35FAD90719D8E190002E72F6 /* Sources */ = {
+		3500361919D9017500E69508 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35FAD91419D8E190002E72F6 /* AppDelegate.m in Sources */,
-				35FAD93619D8E23A002E72F6 /* TableViewController.m in Sources */,
-				35FAD91119D8E190002E72F6 /* main.m in Sources */,
+				3500365219D903D800E69508 /* TableViewController.swift in Sources */,
+				3500362319D9017500E69508 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		35FAD92C19D8E190002E72F6 /* Debug */ = {
+		3500363A19D9017500E69508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,10 +171,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		35FAD92D19D8E190002E72F6 /* Release */ = {
+		3500363B19D9017500E69508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,55 +210,50 @@
 			};
 			name = Release;
 		};
-		35FAD92F19D8E190002E72F6 /* Debug */ = {
+		3500363D19D9017500E69508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = StaticCells/Info.plist;
+				INFOPLIST_FILE = StaticCellsSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "StaticCells/StaticCells-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		35FAD93019D8E190002E72F6 /* Release */ = {
+		3500363E19D9017500E69508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = StaticCells/Info.plist;
+				INFOPLIST_FILE = StaticCellsSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "StaticCells/StaticCells-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35FAD90619D8E190002E72F6 /* Build configuration list for PBXProject "StaticCells" */ = {
+		3500361819D9017500E69508 /* Build configuration list for PBXProject "StaticCellsSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35FAD92C19D8E190002E72F6 /* Debug */,
-				35FAD92D19D8E190002E72F6 /* Release */,
+				3500363A19D9017500E69508 /* Debug */,
+				3500363B19D9017500E69508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35FAD92E19D8E190002E72F6 /* Build configuration list for PBXNativeTarget "StaticCells" */ = {
+		3500363C19D9017500E69508 /* Build configuration list for PBXNativeTarget "StaticCellsSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35FAD92F19D8E190002E72F6 /* Debug */,
-				35FAD93019D8E190002E72F6 /* Release */,
+				3500363D19D9017500E69508 /* Debug */,
+				3500363E19D9017500E69508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 35FAD90319D8E190002E72F6 /* Project object */;
+	rootObject = 3500361519D9017500E69508 /* Project object */;
 }

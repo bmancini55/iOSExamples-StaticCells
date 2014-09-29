@@ -105,6 +105,7 @@
 // Configure the row selection code for any cells that you want to customize the row selection
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // Handle social cell selection to toggle checkmark
     if(indexPath.section == 1 && indexPath.row == 0) {
         
         // deselect row
